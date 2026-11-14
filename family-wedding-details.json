@@ -1,0 +1,82 @@
+{
+  "hosts": [
+    "Smt. Radha Devi",
+    "Sh. Mohan Lal Khatiwal"
+  ],
+  "family": "Khatiwal",
+  "home": "VPO Nihal Khera, Tehsil Abohar, District Fazilka, Punjab",
+  "couples": [
+    {
+      "bride": "Divya",
+      "groom": "Gaurav",
+      "date": "2026-11-21",
+      "groomParents": [
+        "Smt. Savitri Devi",
+        "Sh. Chanan Ram Chandora"
+      ],
+      "groomResidence": "Rawatsar, Rajasthan"
+    },
+    {
+      "groom": "Sahil",
+      "bride": "Kavita",
+      "date": "2026-11-22",
+      "brideParents": [
+        "Smt. Birma Devi",
+        "Sh. Harbans Kumar Jhatwal"
+      ],
+      "brideResidence": "Village Killianwali, Abohar, Punjab"
+    }
+  ],
+  "events": [
+    {
+      "name": "Baan",
+      "date": "2026-11-17",
+      "time": "12:00 PM",
+      "group": "family"
+    },
+    {
+      "name": "Mehndi",
+      "date": "2026-11-19",
+      "time": "9:15 PM",
+      "group": "family"
+    },
+    {
+      "name": "Bhaat",
+      "date": "2026-11-21",
+      "time": "7:15 AM",
+      "group": "Divya"
+    },
+    {
+      "name": "Reception of Baraat",
+      "date": "2026-11-21",
+      "time": "7:15 PM",
+      "group": "Divya"
+    },
+    {
+      "name": "Dinner",
+      "date": "2026-11-21",
+      "time": "8:15 PM",
+      "group": "Divya"
+    },
+    {
+      "name": "Doli",
+      "date": "2026-11-22",
+      "time": "5:15 AM",
+      "group": "Divya",
+      "dateConfirmedByUser": true
+    },
+    {
+      "name": "Departure of Baraat",
+      "date": "2026-11-22",
+      "time": "7:15 PM",
+      "group": "Sahil"
+    }
+  ],
+  "venue": "Maan Palace, Near Bus Stop, Dangar Khera, Punjab",
+  "source": "User supplied printed invitation PDF; Divya Doli date confirmed in chat",
+  "notSpecified": [
+    "Family ritual venues",
+    "Baraat departure meeting point",
+    "Exact pheras times"
+  ]
+}

@@ -1,0 +1,5 @@
+.DS_Store
+node_modules/
+.netlify/
+*.zip
+*.tar.gz

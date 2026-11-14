@@ -1,0 +1,42 @@
+[
+  {
+    "file": "updated-photo-1.png",
+    "sha256": "fb1be9afd6666d1153db245b55d675c8e61946c7f92b27ace5f4028fc7a5f546",
+    "unchanged": true
+  },
+  {
+    "file": "updated-photo-2.png",
+    "sha256": "764a14f4bcd19b47fb37871f31b3f05cf86899b18367f42977ca4a7dcf814576",
+    "unchanged": true
+  },
+  {
+    "file": "updated-photo-3.png",
+    "sha256": "d2fa7a450793ec9a4bbb21f57beb7e1efc2057dcd4af4ca7668c99d6022c2c25",
+    "unchanged": true
+  },
+  {
+    "file": "updated-photo-4.png",
+    "sha256": "539005e5fbf17315231cb0ac89da60aeb9e1fb0c8e63fd2a29a1e82415db04c7",
+    "unchanged": true
+  },
+  {
+    "file": "updated-photo-5.png",
+    "sha256": "867c5fd72f7eff5c0a1289d13009259da7492b181b7bb6ad4a5909b7b0a07532",
+    "unchanged": true
+  },
+  {
+    "file": "updated-photo-7.png",
+    "sha256": "7aaeaf2183f4cd819b58ed4267264b01623bc175ed1620c655886f1a013721d0",
+    "unchanged": true
+  },
+  {
+    "file": "updated-photo-8.png",
+    "sha256": "d27768e569b69d6225ba8b4252b698cd529254279f43871b6c8b68cfd2d6b001",
+    "unchanged": true
+  },
+  {
+    "file": "couple-portraits-hq.png",
+    "sha256": "e7fc8eedaa856d00daec77f18ed170b8169ea3c545d7831117c150c557795d94",
+    "unchanged": true
+  }
+]

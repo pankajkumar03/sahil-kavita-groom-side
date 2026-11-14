@@ -1,0 +1,151 @@
+/* Lantern garden edition: same invitation sections and interactions. */
+:root{--wine:#785238;--gold:#bc8e43;--paper:#fcf7ee;--text:#715b48}
+body{background:#fcf7ee;background-image:radial-gradient(ellipse at 0 15%,#efd8bd4d,transparent 45%),radial-gradient(ellipse at 100% 70%,#e6b9a22e,transparent 45%);color:var(--text)}
+.section{position:relative}.section-heading h2{color:#694b35}.section-heading .script,.script{color:#b88b45}.section-heading .fine-line,.fine-line{background:linear-gradient(90deg,transparent,#c9a569,transparent)}
+.hero{background:#f9e9d6}.hero .hero-art{content:normal;object-fit:cover;object-position:center bottom}.hero .hero-inner{inset:2% 8% auto}.hero .hero-ganesh{width:64px;height:64px;object-fit:contain}.hero h1{color:#bc8b40;text-shadow:0 1px 10px #fff7e7}.hero .eyebrow,.family-date{color:#78563e}.family-hero-pairs{gap:55px}.hero .family-hero-pairs h1{font-family:'Great Vibes',cursive;font-size:clamp(40px,6.8svh,74px);display:flex;flex-direction:column;align-items:center;gap:3px}.hero .family-hero-pairs h1 em{font-size:23px;color:#8d6840}.family-hero-divider{color:#c09c61}.hero-scene:before{display:none}
+.invitation{background:transparent}.family-scroll{filter:drop-shadow(0 12px 17px #8c6b3924)}#invitation .family-scroll h2{color:#8b673d}#invitation .scroll-copy .parents{color:#8c6749}#invitation .family-scroll .family-label{color:#a3855a}
+.couple.floral{background-image:none}.couple{padding-top:65px;padding-bottom:55px}.couple:before{content:'❦';position:absolute;left:50%;top:8px;transform:translateX(-50%);color:#cdb58a;font-size:30px}.couple-decoration{opacity:.7;filter:saturate(.6) sepia(.12)}.couple-decoration img{max-height:270px;object-fit:contain}.person h3{color:#8d693f;background:none;-webkit-text-fill-color:initial}.person .portrait{border-color:#d4b579;background:#fff9ee;box-shadow:0 0 0 6px #fffaf1,0 0 0 7px #d9c4a1,0 12px 30px #9b79451c}.person p{color:#826a57}.connector-heart{color:#c89e7d}.monogram-portrait{display:grid!important;place-items:center;position:relative;background:radial-gradient(ellipse at 30% 20%,#fffdf6,#f4e3cb)!important;overflow:hidden}.monogram-portrait>span{font:100px/1 'Great Vibes';color:#b18b50;transform:translateY(9px)}.monogram-portrait:after{content:'❧';position:absolute;bottom:2px;right:23px;font-size:40px;color:#c4a77a}.profile-rule{color:#c5a46c}.quote{color:#a3804d}
+.date-section{background:#f0e1ca!important;background-image:radial-gradient(ellipse at center,#fff9ed,#efdfc7)!important}.date-section:before,.date-section:after{background:none}.date-content{background:#fff9ed;color:#755338}.date-content h3{color:#987240}.date-cover{border-color:#c2a16b}.gold-seal{background:radial-gradient(circle at 30% 20%,#dbb874,#aa7c38);border-color:#e4c990;color:#fff3d0}
+.memories{background:transparent}.memory-couple-tabs{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:8px auto 18px}.memory-couple-tabs button,.family-book-tabs button{border:1px solid #caae7b;color:#8c673a;background:#fffaf1;box-shadow:0 4px 14px #a9814110}.memory-couple-tabs button{border-radius:24px;padding:9px 18px;font:12px/1.4 Jost;cursor:pointer}.memory-couple-tabs button[aria-pressed=true]{background:#b38a4a;color:#fff8ec;border-color:#b38a4a}.memory-couple-tabs button:focus-visible{outline:2px solid #8b6b3c;outline-offset:3px}.memory-awaiting{position:absolute;inset:30px 8px 35px;z-index:5;border:4px double #c9ac73;background:linear-gradient(145deg,#fffaf1,#f3e1c8);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;box-shadow:0 10px 25px #81613d20;transform:rotate(-2deg);padding:22px}.memory-awaiting[hidden]{display:none}.memory-awaiting .script{font-size:32px;text-align:center}.memory-awaiting p{font:12px/1.5 Jost;color:#8e7559}.memory-monogram{font:65px/1 'Great Vibes';color:#b38a4a}.memory-monogram i{font:24px 'Cormorant Garamond'}.awaiting-photos .photo-stack{visibility:hidden}.awaiting-photos .photo-controls{visibility:hidden}.photo-controls button,.book-controls button{color:#96743c;border-color:#cfb580;background:#fffaf2}
+.celebrations{background:#f8efdf}.book-cover{background-image:linear-gradient(#906c2b13,#906c2b13),url('assets/book-cover.jpg');filter:sepia(.55) saturate(.65);border-left-color:#8d6c35}.book-spread{border-color:#a9854d;box-shadow:0 4px 0 #d6be8e,0 8px 0 #f3e8cf}.event-detail-page,.event-illustration-page{background-color:#fffaf0}.event-detail-page h3{color:#96703c}.event-number,.event-detail-page>.eyebrow{color:#997e54}.event-next,.event-close,.event-calendar,.event-directions{color:#8b693a}.family-book-tabs button:hover{background:#edddbf}
+.venue{background:#e8d5b4!important;color:#6e5036}.venue .section-heading h2,.venue .section-heading .script,.venue .section-heading p,.venue-quote{color:#775735}.venue-info{background:#fff9ee;box-shadow:0 10px 30px #886a3924}.venue-info h3{color:#8a673a}.gold-button,.maps-button{color:#775328;border-color:#c6a367;background:#f8ebd4}.venue-card{box-shadow:none}footer{background:#ead9bc;color:#765738}footer h2{color:#8d693a}footer>p{color:#82684b}.petal{opacity:.45}.music{background:#fff8e8;color:#98723b;border-color:#d8c09a}
+@media(min-width:901px){.hero .hero-inner{inset:2% 15% auto}.hero .hero-art{object-fit:cover}.hero .family-hero-pairs h1{font-size:clamp(40px,6.1svh,65px)}}
+@media(max-width:600px){.hero .hero-inner{inset:2% 6% auto}.hero .hero-ganesh{width:48px;height:48px}.hero .family-hero-pairs{gap:3px;margin-top:8px}.hero .family-hero-pairs h1{flex-direction:row;font-size:clamp(34px,9vw,46px);gap:10px;line-height:1.1;margin:6px 0}.hero .family-hero-pairs h1 em{font-size:18px}.family-hero-divider{font-size:14px}.couple{padding-top:60px;padding-bottom:40px}.couple-decoration{opacity:.5}.couple-decoration img{max-height:170px}.memory-couple-tabs{gap:8px;margin:6px auto 12px}.memory-couple-tabs button{font-size:11px;padding:7px 13px}.memory-awaiting{padding:12px;gap:12px}.memory-awaiting .script{font-size:27px}.memory-monogram{font-size:50px}.memory-awaiting p{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.memory-awaiting{transform:none}}
+.awaiting-photos .memory-card{visibility:hidden!important;pointer-events:none!important}
+
+.phone-lantern{display:none}@media(max-width:600px){.phone-lantern{display:block;position:absolute;z-index:2;top:0;width:43px;height:105px;pointer-events:none}.phone-lantern.left{left:5px}.phone-lantern.right{right:5px}.hero .hero-inner{top:3%}}
+
+/* Larger couple names, with explicit short-screen and small-phone limits. */
+.hero .family-hero-pairs h1{font-size:clamp(54px,7.8svh,84px);line-height:1.08}
+.venue-setting img{content:url('assets/lantern-garden-hero.png');object-fit:cover;object-position:center bottom;aspect-ratio:3/2}
+@media(max-width:600px){.hero .family-hero-pairs h1{font-size:clamp(40px,10.6vw,54px);gap:10px;line-height:1.12}.hero .family-hero-pairs h1 em{font-size:20px}.venue-setting{aspect-ratio:1.2}.venue-setting img{height:100%;aspect-ratio:auto}}
+@media(max-width:360px){.hero .family-hero-pairs h1{font-size:38px;gap:8px}.hero .family-hero-pairs h1 em{font-size:18px}.memory-viewer .section-heading>.script{font-size:24px;line-height:1.3}}
+@media(max-height:650px){.hero .family-hero-pairs h1{font-size:clamp(36px,7.3svh,48px)}.hero .hero-ganesh{width:40px;height:40px}.hero .family-hero-pairs{margin-top:5px;gap:3px}}
+@media(max-height:450px) and (min-width:601px){.hero .family-hero-pairs h1{font-size:34px}.hero .family-hero-pairs h1 em{font-size:17px}.hero .hero-ganesh{width:32px;height:32px}.hero .eyebrow,.family-date{font-size:8px}}
+
+.event-art{background-image:url('assets/lantern-event-atlas.png');background-size:300% 300%;background-repeat:no-repeat}
+
+/* Distinct coordinated stationery: different atlas cells, never the hero scene. */
+main{background:linear-gradient(110deg,#fffaf0,#fcf6ec 50%,#f9eddd)}
+.invitation,.memories,.celebrations{background-image:none}
+#invitation .family-scroll,.scroll-roll-bottom{background-image:url('assets/lantern-stationery-atlas.png');background-size:200% 200%;background-position:100% 0;background-repeat:no-repeat}
+.book-cover{background-image:url('assets/lantern-stationery-atlas.png');background-size:200% 200%;background-position:0 0;background-repeat:no-repeat;filter:none;color:#765332;border-left-color:#b49055;box-shadow:inset 5px 0 0 #d7b87566,5px 4px 0 #b7925c}
+.book-cover h2,.book-cover .cover-ganesh,.book-cover .cover-flourish,.book-cover>p,.book-cover .cover-event,.book-cover .cover-event b,.book-cover .cover-event small,.book-cover .book-hint{color:#77512f;text-shadow:0 1px 1px #fff7e5}
+.book-cover .cover-event i{border-color:#a98c5c}.book-cover .book-hint{font-weight:500}
+.couple-decoration{background-image:url('assets/lantern-stationery-atlas.png');background-size:200% 200%;background-position:100% 100%;background-repeat:no-repeat;opacity:.7;filter:none;mask-image:linear-gradient(135deg,#000 25%,transparent 75%);-webkit-mask-image:linear-gradient(135deg,#000 25%,transparent 75%)}
+.couple-decoration img{visibility:hidden}.couple-decoration.right{transform:scaleX(-1)}
+@media(max-width:600px){.couple-decoration{opacity:.55}}
+
+.venue-setting img{content:url('assets/lantern-garden-venue.png');object-position:center;object-fit:cover}
+
+/* Opening envelope has its own original art and a centered wax-seal target. */
+.opening{background:#f4e4cf}.opening .opening-scene{width:100%;height:100svh;max-height:none;aspect-ratio:auto;box-shadow:none;container-type:normal}
+.opening .cover-art{background-image:url('assets/lantern-opening-envelope.png');background-size:cover;background-position:center;background-repeat:no-repeat}
+.opening #open{left:50%;top:52%;width:clamp(120px,18vw,210px);height:clamp(120px,18vw,210px);transform:translate(-50%,-50%);border-radius:50%}
+.opening #open:after{content:'Tap to Open';position:absolute;inset:0;display:grid;place-items:center;font:600 clamp(18px,2.5vw,29px)/1.2 'Cormorant Garamond';color:#6c4c26;text-shadow:0 1px 1px #eecf88;pointer-events:none}
+.opening .tap-label{top:24%;left:10%;right:10%;font-size:clamp(17px,2.1vw,27px);color:#7e5b37;letter-spacing:2px;text-shadow:0 1px 8px #fff8e7}
+.opening .cover-copy{top:74%;left:10%;right:10%;color:#896744}.opening .cover-copy h1{font-size:clamp(30px,3.6vw,46px);color:#936c3a}.opening .cover-copy p{font-size:clamp(11px,1.2vw,15px);line-height:1.8;margin-top:12px}.opening .cover-copy>span{font-size:16px}
+@media(max-width:600px){.opening #open{width:160px;height:160px}.opening #open:after{font-size:22px}.opening .tap-label{top:25%;font-size:20px}.opening .cover-copy{top:74%;left:8%;right:8%}.opening .cover-copy h1{font-size:33px}.opening .cover-copy p{font-size:12px}.opening .cover-art{background-size:auto 100%}}
+@media(max-height:500px){.opening .cover-copy{top:75%}.opening .cover-copy h1{font-size:25px}.opening .cover-copy p{font-size:9px;margin-top:4px}.opening .cover-copy>span{display:none}.opening #open{width:110px;height:110px}.opening #open:after{font-size:18px}.opening .tap-label{top:20%;font-size:16px}}
+
+/* Responsive refinement: one isolated scroll, balanced cover list and dark sections. */
+.invitation{background:none!important;background-image:none!important;isolation:isolate;padding:70px 20px 65px}
+.invitation:before,.invitation:after{display:none!important}
+#invitation .family-scroll{background-color:transparent;background-repeat:no-repeat;box-shadow:none;isolation:isolate}
+#invitation .family-scroll:before,#invitation .family-scroll:after,.scroll-roll-bottom{display:none!important}
+.book-cover{min-height:600px;aspect-ratio:auto;padding:48px 38px 42px;justify-content:center;gap:0}
+.book-cover h2{font-size:34px;line-height:1.15;margin:12px 0 7px;max-width:100%;text-wrap:balance}
+.book-cover>.cover-ganesh{font-size:31px;line-height:1.2}.book-cover>.cover-flourish{font-size:19px;line-height:1.2}.book-cover>p{font-size:12px;line-height:1.5;margin:10px 0 16px}
+.book-cover .cover-index{width:100%;margin:0;display:grid;gap:0}
+.book-cover .cover-event{display:grid;grid-template-columns:minmax(0,1fr) 65px;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid #b59a6b55;text-align:left}
+.book-cover .cover-event b{font:500 13px/1.4 Jost;text-align:left;min-width:0;overflow-wrap:normal}
+.book-cover .cover-event small{font:500 11px/1.4 Jost;white-space:nowrap;text-align:right;color:#84633e}
+.book-cover .cover-event i{display:none}.book-cover .book-hint{font-size:9px;line-height:1.5;letter-spacing:1.1px;margin:20px 0 0}
+.date-section,.venue{position:relative;isolation:isolate;background-color:#503c2c!important;background-repeat:no-repeat!important;background-size:200% 100%!important;background-position:left center!important;padding-top:70px;padding-bottom:75px}
+.venue{background-position:right center!important;background-color:#4a4230!important}
+.date-section>.section-heading,.venue>.section-heading,.venue>.venue-setting,.venue>.venue-card,.venue>.venue-quote{position:relative;z-index:1}
+.date-section .section-heading h2,.venue .section-heading h2{color:#fff1d7}
+.date-section .section-heading>.script,.venue .section-heading>.script,.venue .venue-quote{color:#dfbf80}
+.date-section .section-heading>p:last-child,.venue .section-heading>p:last-child{color:#f3e4ca}
+.date-surprise{width:min(620px,100%);aspect-ratio:auto;min-height:280px;background:#fcf3e3;box-shadow:0 18px 45px #160f0840;border-color:#d1b47c}
+.date-content{min-height:280px;padding:28px 22px;display:flex;flex-direction:column;justify-content:center;align-items:center}
+.date-content .eyebrow{font-size:10px;line-height:1.6;color:#886b40}.date-content h3{font-size:34px;line-height:1.25;margin:12px 0 10px;color:#79552f}.date-content .time{font-size:14px;line-height:1.6;letter-spacing:.3px;color:#866844;text-align:center}.date-content .countdown{width:100%;max-width:410px;margin-top:20px}
+.venue-setting{width:min(100%,950px);aspect-ratio:3/2;margin:0 auto;overflow:hidden;border:1px solid #d2b67b70;border-radius:22px}
+.venue-setting img{width:100%;height:100%;aspect-ratio:auto;object-fit:cover;object-position:center;display:block}
+.venue-card{width:min(900px,94%);margin:-80px auto 0;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px}
+.venue-info{padding:30px 25px;text-align:center;border:1px solid #d8bf8f;background:#fff9ee;box-shadow:0 14px 30px #1f170e22}
+.venue-info .venue-time{font-size:12px;line-height:1.8;color:#765637}.venue-card iframe{min-height:350px;aspect-ratio:1;height:100%;border:6px solid #f9edda;border-radius:23px}
+@media(max-width:900px){.venue-card{gap:16px}.venue-info{padding:25px 18px}.hero .hero-art{object-fit:cover;object-position:center bottom}}
+@media(max-width:600px){.invitation{padding:40px 10px 45px}.date-section,.venue{padding:48px 16px 52px}.date-section .section-heading,.venue .section-heading{margin-bottom:28px}.date-section .section-heading h2,.venue .section-heading h2{font-size:34px}.date-section .section-heading>.script,.venue .section-heading>.script{font-size:28px}.date-section .section-heading>p:last-child{font-size:13px;line-height:1.7}.date-surprise,.date-content{min-height:250px}.date-content{padding:22px 15px}.date-content h3{font-size:29px}.date-content .time{font-size:12px;line-height:1.7}.date-content .countdown{margin-top:18px;gap:8px}.date-content .countdown strong{font-size:25px}.date-content .countdown span{font-size:8px;letter-spacing:1px}.book-cover{min-height:560px;padding:35px 27px 30px}.book-cover h2{font-size:29px}.book-cover .cover-event{padding:9px 0;grid-template-columns:minmax(0,1fr) 58px;gap:7px}.book-cover .cover-event b{font-size:12px;line-height:1.4}.book-cover .cover-event small{font-size:10px}.book-cover .book-hint{font-size:9px;margin-top:17px}.book-cover>p{font-size:11px;margin:9px 0 13px}.venue-setting{width:100%;aspect-ratio:1.15;border-radius:18px}.venue-card{width:100%;margin:-35px auto 0;grid-template-columns:1fr;gap:18px;padding:0 8px}.venue-info{padding:25px 18px}.venue-card iframe{min-height:270px;height:270px;aspect-ratio:auto}.venue .venue-quote{font-size:24px;line-height:1.5;margin-top:32px}.venue .venue-info .eyebrow{font-size:22px}.venue-info h3{font-size:30px}.venue-info p{font-size:12px;line-height:1.7}}
+@media(max-width:360px){.book-cover{padding:30px 22px 27px;min-height:550px}.book-cover h2{font-size:27px}.book-cover .cover-event b{font-size:11px}.book-cover .cover-event small{font-size:10px}.book-cover .cover-event{grid-template-columns:minmax(0,1fr) 55px}.date-content h3{font-size:26px}.date-content .time{font-size:11px}.date-content .eyebrow{font-size:8px;letter-spacing:1px}}
+
+#invitation .family-scroll{background-image:url('assets/lantern-scroll-isolated.png');background-size:100% 100%;background-position:center}
+.date-section,.venue{background-image:url('assets/lantern-dark-sections.png')!important}
+.date-cover{inset:0;width:100%;height:100%;min-height:0;background:linear-gradient(145deg,#fff7e5,#ead5b2)!important;background-size:auto;border:4px double #c1a06b;border-radius:18px;padding:35px 20px}
+.date-cover:before{inset:12px;border:1px solid #d0b784;border-radius:10px}
+.date-cover .envelope-fold{background:linear-gradient(145deg,#fff9e9,#e8d2ad)}
+.date-content{background:#fff8e9!important;color:#765537!important;border-radius:17px}
+.date-content .confetti{color:#bc8e43}
+.book-cover .cover-index{background:#fff8e9f2;border:1px solid #c9ab735e;border-radius:9px;padding:4px 11px;box-shadow:0 3px 10px #9e7b4010}
+.book-cover .cover-event b,.book-cover .cover-event small{color:#634a2d;text-shadow:none}
+.book-cover .cover-event b{font-size:14px}.book-cover .cover-event small{font-size:11px}
+@media(max-width:600px){.book-cover .cover-event b{font-size:12px}.book-cover .cover-event small{font-size:10px}.book-cover .cover-index{padding:3px 9px}}
+@media(max-width:360px){.book-cover .cover-event b{font-size:11px}}
+
+/* Shared plain dark paper: no floral or lantern background decoration. */
+.date-section,.venue{background:#503c2c!important;background-image:none!important}
+.date-section:before,.date-section:after,.venue:before,.venue:after{content:none!important;display:none!important;background:none!important}
+
+/* Matching dark handmade paper grain, with no decorative artwork. */
+.date-section,.venue{background-color:#503c2c!important;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='paper'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' opacity='.16' filter='url(%23paper)'/%3E%3C/svg%3E"),radial-gradient(ellipse at 35% 25%,#6a503a66,transparent 65%),linear-gradient(115deg,#503c2c,#594331 50%,#493729)!important;background-size:220px 220px,100% 100%,100% 100%!important;background-repeat:repeat,no-repeat,no-repeat!important;background-position:0 0,center,center!important}
+
+/* Restore the earlier painted paper character, with all decoration removed. */
+.date-section,.venue{background-color:#503020!important;background-image:url('assets/lantern-paper-undecorated.png')!important;background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important}
+
+/* One default page surface, matched to the footer. Special paper panels stay dark. */
+:root{--page-background:#ead9bc;--paper:#ead9bc}
+html,body,main{background:var(--page-background)!important}
+.invitation,.couple,.memories,.celebrations,footer{background-color:var(--page-background)!important;background-image:none!important}
+
+/* Dedicated phone artwork: complete composition and the same painted lanterns. */
+@media(max-width:600px) and (orientation:portrait){
+ .hero .hero-art{content:normal;object-fit:contain;object-position:center;background:#f9e8d0}
+ .hero-scene picture{background:#f9e8d0}
+ .phone-lantern{display:none!important}
+ .opening .cover-art{background-image:url('assets/lantern-opening-envelope-phone.png');background-size:contain;background-position:center;background-repeat:no-repeat;background-color:#f7e6cd}
+ .opening #open{top:53%;width:clamp(88px,26vw,130px);height:clamp(88px,26vw,130px)}
+ .opening #open .seal-ring{display:none}.opening #open:after{font-size:clamp(14px,4.2vw,19px);font-weight:600}
+ .opening .cover-copy{top:67%;left:8%;right:8%}.opening .cover-copy h1{font-size:30px}.opening .cover-copy p{font-size:11px;line-height:1.65;max-width:270px;margin:6px auto 0;padding:5px 8px;border-radius:8px;background:#fff7e6b3}.opening .cover-copy>span{display:none}
+}
+@media(max-width:600px) and (orientation:portrait){
+ .hero-scene picture{display:flex;align-items:center;justify-content:center;background:#f9e8d0}
+ .hero .hero-art{height:auto;max-height:100%;max-width:100%;width:100%;aspect-ratio:auto;object-fit:contain;mask-image:linear-gradient(to bottom,transparent,#000 4%,#000 96%,transparent);-webkit-mask-image:linear-gradient(to bottom,transparent,#000 4%,#000 96%,transparent)}
+}
+
+/* Background fitting contract: preserve illustrations, extend only plain paper. */
+.hero,.hero-scene,.hero-scene picture{background-color:#f9e8d0}
+.hero{min-height:100svh}.hero .hero-inner{max-width:1100px;margin-inline:auto}
+.opening{min-height:100svh;background-color:#f7e6cd;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' opacity='.055' filter='url(%23n)'/%3E%3C/svg%3E");background-repeat:repeat}
+.opening .opening-scene{overflow:hidden;width:min(100vw,150svh);height:min(100svh,66.66667vw);max-height:100svh;aspect-ratio:3/2}
+.opening .cover-art{background-size:100% 100%;background-position:center}
+.opening #open .seal-ring{display:none}
+.venue-setting{aspect-ratio:3/2!important;height:auto}.venue-setting img{aspect-ratio:3/2!important;width:100%;height:auto;object-fit:contain;object-position:center}
+.venue-card{margin:24px auto 0}.venue .venue-card iframe{display:block}
+.date-section,.venue{background-attachment:scroll!important;background-size:cover!important;background-position:center center!important}
+@media(max-width:1024px) and (orientation:portrait){
+ .hero-scene picture{display:flex;align-items:center;justify-content:center;background:#f9e8d0}
+ .hero .hero-art{content:normal;width:100%;height:auto;max-width:100%;max-height:100%;aspect-ratio:auto;object-fit:contain;object-position:center;mask-image:linear-gradient(to bottom,transparent,#000 4%,#000 96%,transparent);-webkit-mask-image:linear-gradient(to bottom,transparent,#000 4%,#000 96%,transparent)}
+ .hero .hero-inner{top:calc(max(0px,(100svh - 177.77778vw)/2) + 16px);left:7%;right:7%}
+ .opening .opening-scene{width:min(100vw,56.25svh);height:min(100svh,177.77778vw);max-height:100svh;aspect-ratio:9/16}
+ .opening .cover-art{background-image:url('assets/lantern-opening-envelope-phone.png');background-size:100% 100%;background-position:center;background-repeat:no-repeat;background-color:#f7e6cd}
+ .opening #open{left:50%;top:53.6%;width:24%;height:13.5%;min-width:75px;min-height:75px;transform:translate(-50%,-50%)}
+ .opening #open .seal-ring{display:none}.opening #open:after{font-size:clamp(14px,3.8vw,24px);white-space:nowrap}
+ .opening .tap-label{top:26%;font-size:clamp(17px,4.8vw,26px)}
+ .opening .cover-copy{top:67%;left:8%;right:8%}.opening .cover-copy h1{font-size:clamp(28px,7vw,40px)}.opening .cover-copy p{font-size:clamp(10px,2.6vw,14px);line-height:1.7;max-width:290px;margin:6px auto 0;padding:5px 8px;border-radius:8px;background:#fff7e6b3}.opening .cover-copy>span{display:none}
+}
+@media(min-width:601px) and (max-width:1024px) and (orientation:portrait){.hero .hero-inner{left:12%;right:12%;top:4%}.hero .hero-ganesh{width:65px;height:65px}.hero .family-hero-pairs{gap:35px}.hero .family-hero-pairs h1{font-size:clamp(52px,7vw,74px)}}
+@media(min-aspect-ratio:2/1){.hero-scene picture{display:flex;align-items:center;justify-content:center}.hero .hero-art{content:normal;object-fit:contain;object-position:center}.hero .hero-inner{left:20%;right:20%;top:2%}}
+@media(max-height:500px) and (orientation:landscape){.opening .opening-scene{height:100svh;width:min(100vw,150svh);max-height:100svh}.opening .cover-art{background-size:100% 100%}.opening #open{top:52%;width:100px;height:100px}.opening .cover-copy{top:75%}.opening .tap-label{top:20%}.hero .hero-inner{inset:2% 16% auto}.hero .family-hero-pairs h1{font-size:34px}.hero .family-date{font-size:8px}.hero .hero-ganesh{width:28px;height:28px}.hero .eyebrow{font-size:8px}.hero .family-hero-pairs{margin-top:3px;gap:30px}.hero .hero-art{object-fit:contain}}
+@media(max-width:600px){.venue-card{margin:18px auto 0}.hero .family-hero-pairs h1{font-size:clamp(36px,10.3vw,46px)}.hero .hero-ganesh{width:44px;height:44px}}
+@media(max-width:360px){.hero .family-hero-pairs h1{font-size:36px;gap:7px}.hero .hero-inner{left:6%;right:6%}.opening .cover-copy p{font-size:10px}}
