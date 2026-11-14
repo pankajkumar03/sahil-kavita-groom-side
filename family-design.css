@@ -149,3 +149,11 @@ html,body,main{background:var(--page-background)!important}
 @media(max-height:500px) and (orientation:landscape){.opening .opening-scene{height:100svh;width:min(100vw,150svh);max-height:100svh}.opening .cover-art{background-size:100% 100%}.opening #open{top:52%;width:100px;height:100px}.opening .cover-copy{top:75%}.opening .tap-label{top:20%}.hero .hero-inner{inset:2% 16% auto}.hero .family-hero-pairs h1{font-size:34px}.hero .family-date{font-size:8px}.hero .hero-ganesh{width:28px;height:28px}.hero .eyebrow{font-size:8px}.hero .family-hero-pairs{margin-top:3px;gap:30px}.hero .hero-art{object-fit:contain}}
 @media(max-width:600px){.venue-card{margin:18px auto 0}.hero .family-hero-pairs h1{font-size:clamp(36px,10.3vw,46px)}.hero .hero-ganesh{width:44px;height:44px}}
 @media(max-width:360px){.hero .family-hero-pairs h1{font-size:36px;gap:7px}.hero .hero-inner{left:6%;right:6%}.opening .cover-copy p{font-size:10px}}
+
+/* Return the details/map to the lower half of the venue illustration. */
+.venue .venue-setting{position:relative;z-index:0}
+.venue .venue-card{position:relative;z-index:2;margin-top:clamp(-285px,-20vw,-170px);align-items:stretch}
+.venue .venue-info{box-shadow:0 16px 35px #21180e30}
+.venue .venue-card iframe{box-shadow:0 16px 35px #21180e30}
+@media(max-width:900px) and (min-width:601px){.venue .venue-card{margin-top:-180px}}
+@media(max-width:600px){.venue .venue-card{margin-top:clamp(-125px,-27vw,-85px);gap:18px}.venue .venue-info{background:#fff9ee}.venue .venue-card iframe{background:#f9edda}}
