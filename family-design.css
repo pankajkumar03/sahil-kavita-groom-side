@@ -172,3 +172,8 @@ html,body,main{background:var(--page-background)!important}
 .hero .hero-scene picture{position:absolute;inset:0;display:block;width:100%;height:100%;overflow:hidden}
 .hero .hero-scene picture .hero-art{display:block;width:100%;height:100%;max-width:none;max-height:none;aspect-ratio:auto;object-fit:cover;object-position:center center;mask-image:none;-webkit-mask-image:none}
 @media(max-width:1024px) and (orientation:portrait){.hero .hero-inner{top:2%}}
+
+/* Clear directions action against the cream event pages. */
+.event-detail-page .event-directions{background:#ead8b5;border:1px solid #a88345;color:#493018;-webkit-text-fill-color:#493018;font-weight:600;text-shadow:none;opacity:1}
+.event-detail-page .event-directions:hover,.event-detail-page .event-directions:focus-visible{background:#ddc395;color:#35210e;-webkit-text-fill-color:#35210e;border-color:#79572b}
+.event-detail-page .event-directions svg{color:inherit;stroke:currentColor}
