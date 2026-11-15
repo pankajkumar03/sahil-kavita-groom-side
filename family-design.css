@@ -157,3 +157,18 @@ html,body,main{background:var(--page-background)!important}
 .venue .venue-card iframe{box-shadow:0 16px 35px #21180e30}
 @media(max-width:900px) and (min-width:601px){.venue .venue-card{margin-top:-180px}}
 @media(max-width:600px){.venue .venue-card{margin-top:clamp(-125px,-27vw,-85px);gap:18px}.venue .venue-info{background:#fff9ee}.venue .venue-card iframe{background:#f9edda}}
+
+/* Original Divya / Gaurav photograph, cropped only within the portrait frames. */
+.daughter-chapter .portrait.family-photo{position:relative;overflow:hidden;transform:none}
+.daughter-chapter .portrait.family-photo img{position:absolute;max-width:none;width:355.83%;height:533.33%;object-fit:fill;filter:none;transform:none}
+.daughter-chapter .divya-portrait img{left:-187.5%;top:-170.83%}
+.daughter-chapter .gaurav-portrait img{left:-87.5%;top:-158.33%}
+
+/* Face inward: Divya is the left profile and Gaurav the right profile. */
+.daughter-chapter .portrait.family-photo{transform:scaleX(-1)}
+.daughter-chapter .portrait.family-photo img{transform:none}
+
+/* Fill every hero viewport using the matching portrait/landscape artwork. */
+.hero .hero-scene picture{position:absolute;inset:0;display:block;width:100%;height:100%;overflow:hidden}
+.hero .hero-scene picture .hero-art{display:block;width:100%;height:100%;max-width:none;max-height:none;aspect-ratio:auto;object-fit:cover;object-position:center center;mask-image:none;-webkit-mask-image:none}
+@media(max-width:1024px) and (orientation:portrait){.hero .hero-inner{top:2%}}
